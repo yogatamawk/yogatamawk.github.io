@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'aileron';
+    src: url('../fonts/aileron.woff') format('woff');
+    font-family: 'bebasneue';
+    src: url('../fonts/bebasneue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: "aileron";
+	width: 100%;
+    height: 100%;
+}
+
+html {
+	width: 100%;
+    height: 100%;
+}
+
+
+	.navbar {
+	    border: 0px;
+	    background: transparent;
+	    padding: 20px 20px;
+	    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	    transition: background .5s ease-in-out,padding .5s ease-in-out;
+	}
+
+	.top-nav-collapse {
+	    background-color: #2B2B2B;
+	    padding: 10px 20px;
+	}
+
+
+.introsection {
+    height: 100%;
+    padding-top: 220px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/bg.jpg");
+    background-size: cover;
+    font-size: 80px;
+    font-family: "bebasneue";
+    font-weight: bold;
+    line-height: 1;
+}
+
+.introsection a {
+	font-weight: bold;
+	font-family: "aileron";
+}
+
+.introsection p {
+	font-weight: bold;
+	color: white;
+}
+
+.introsection a:hover {
+	background-color:  #DE1B1B;
+	border: 0;
+	color:white;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: "aileron";
+	color: white;
+}
+
+.about {
+	height: 100%;
+    padding-top: 100px;
+    background: #f1f1f1;
+    color: #2B2B2B;
+}
+
+.about h1 {
+	font-family: "bebasneue";
+	color: #2B2B2B;
+}
+
+.about hr {
+	border-top: 4px solid #DE1B1B;
+}
+
+.jd {
+	margin-bottom: 30px;
+}
+
+.about i {
+	margin: 0 2px;
+}
+
+.fitur {
+	height: 100%;
+    padding-top: 100px;
+    background: #2B2B2B;
+    color: #616161;
+}
+
+@media(min-width: 576px) {
+	.fitur {
+		height: 800px;
+	}
+}
+
+.card {
+	border-color: #2B2B2B;
+} 
+
+.fitur h1 {
+	font-family: "bebasneue";
+	color: white;
+}
+
+.fitur hr {
+	border-top: 4px solid #DE1B1B;
+}
+
+.fitur i {
+	color:white;
+}
+
+
+.fitur p {
+	font-size: 14px;
+	color:white;
+}
+
+.work {
+	height: 100%;
+    padding-top: 100px;
+    background: white;
+    color: #2B2B2B;
+}
+
+.work h1 {
+	font-family: "bebasneue";
+	color: #2B2B2B;
+}
+
+.work hr {
+	border-top: 4px solid #DE1B1B;
+}
+
+.card {
+	background-color: #2B2B2B;
+}
+
+.card p {
+	font-size: 14px;
+	color: white;
+}
+
+.card img {
+	width: 318px;
+}
+
+.kontak {
+	background-color: blue;
+}
