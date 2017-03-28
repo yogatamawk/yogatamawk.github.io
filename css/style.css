@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5{
     color: #616161;
 }
 
-@media(min-width: 576px) {
+@media(max-width: 576px) {
 	.fitur {
 		height: auto;
 	}
